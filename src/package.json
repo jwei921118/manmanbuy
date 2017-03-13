@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "angular": "^1.6.3",
     "zepto": "^1.2.0"
   }
 }

@@ -2,7 +2,7 @@
   "name": "manmanbuy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfiles.js",
   "directories": {
     "doc": "docs",
     "test": "test"
@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cli": "^1.2.2"
+    "gulp": "^3.9.1"
   }
 }
