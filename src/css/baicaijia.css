@@ -1,0 +1,214 @@
+/*省钱控头部样式*/
+.header-top {
+    position: relative;
+    height: 50px;
+    background-color: #e4393c;
+}
+.header-top .comeback {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-top .comeback a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height:50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.header-top h3 {
+    height: 100%;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.header-top .downApp {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-top .downApp a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 8px auto;
+
+}
+.header-top .downApp a img  {
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+
+
+/*导航的样式*/
+.nav {
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    border-bottom:1px solid #d9d9d9;
+    overflow: hidden;
+}
+.nav ul {
+    width: auto;
+    overflow: hidden;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0 12px;
+    font-size: 14px;
+    color: #333333;
+}
+.nav ul li .borderbt {
+    color: #e4393c;
+    border-bottom: 3px solid #e4393c;
+}
+
+.nav .search {
+    position: absolute;
+    background-color: #e7e7e7;
+    width:40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+}
+.nav .search i {
+    text-align: center;
+    font-size:20px;
+}
+
+
+/*商品详情*/
+.product-list {
+    padding:3px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.product-list ul {
+    position: relative;
+}
+.product-list ul li {
+    padding:10px 5px;
+    position: relative;
+    margin-bottom:3px;
+    background-color: #ffffff;
+}
+.product-list ul li toDetial {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.product-list ul li .g-pic {
+    width: 136px;
+    float: left;
+}
+.product-list ul li .g-pic img {
+    display: block;
+    width: 130px;
+    height: 130px;
+}
+.product-list ul li .g-con {
+
+}
+.product-list ul li .g-con p {
+    min-height: 40px;
+    line-height: 24px;
+    color: #333333;
+    font-size:12px;
+}
+.product-list ul li .g-con .i .g-price {
+    color: #fc353a;
+    font-size: 24px;
+}
+.product-list ul li .g-con .i .g-price i {
+    font-size: 12px;
+    margin-right:8px;
+}
+.product-list ul li .g-con .i .g-price em {
+    font-size: 12px;
+    margin-right:8px;
+}
+.product-list ul li .g-con .i .g-price del {
+    margin-left:10px;
+    font-size: 14px;
+    color: #a8a8a8;
+}
+.product-list ul li .g-con .o {
+    width: 100%;
+    padding-left:136px;
+    position: absolute;
+    bottom: 10px;
+}
+.product-list ul li .g-con .o .coupon {
+
+}
+.product-list ul li .g-con .o .coupon .bar i {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    height: 16px;
+    width: 120px;
+    background-color: #f58083;
+    color: #ffffff;
+    text-align: center;
+    line-height: 16px;
+}
+.product-list ul li .g-con .o .coupon .bar i em {
+    width: 20%;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: red;
+}
+.product-list ul li .g-con .o .coupon .bar b {
+    font-size:12px;
+    margin-left:12px;
+    color: #fc353a;
+}
+.product-list ul li .g-con .o .toOrder {
+    margin-top: 10px;
+    position: relative;
+    height: 20px;
+    width: 100%;
+}
+.product-list ul li .g-con .o .toOrder a:nth-of-type(1) {
+    font-size: 12px;
+    position: absolute;
+    bottom:0;
+    left: 6px;
+    height: 20px;
+    border: 1px dashed #fc353a;
+}
+.product-list ul li .g-con .o .toOrder a:nth-of-type(2) {
+    position: absolute;
+    padding: 0 3px;
+    bottom: 0;
+    right: 12px;
+    height: 24px;
+    background-color: #fc353a;
+    color: #ffffff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+    font-size:12px;
+
+}

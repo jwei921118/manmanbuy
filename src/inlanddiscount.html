@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>mammanbuy比价网---省钱空</title>
+    <link rel="stylesheet icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/inlanddiscount.css">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/template.js"></script>
+</head>
+<body>
+
+    <!--国内折扣-->
+    <div class="header-top clearfix">
+        <div class="comeback">
+            <a href="./index.html" class="iconfont icon-xiangzuo">
+            </a>
+        </div>
+        <h3>国内折扣</h3>
+        <div class="downApp">
+            <a href="#">
+                <img src="images/header_app.png" alt="">
+            </a>
+        </div>
+    </div>
+
+
+    <!--商品列表-->
+    <div class="product-lsit">
+        <ul id="productList" class="clearfix">
+
+        </ul>
+    </div>
+
+
+
+    <!--底部-->
+    <div class="ct_foot">
+        <div class="foot_top clearfix">
+            <a href="#">登陆</a>
+            <a href="#">注册</a>
+            <a href="#" style="width: 40%;border: 0"><span class="iconfont icon-xiangshang"></span>&nbsp;返回顶部
+            </a>
+        </div>
+        <div class="foot">
+            <p>
+                <a style="color: red;" href="http://m.manmanbuy.com/?o=download">手机APP下载</a>
+                <a href="http://m.manmanbuy.com">慢慢买手机版</a>
+                <span>--掌上比价平台</span>
+            </p>
+            <p>m.manmanbuy.com</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/inlanddiscount.js"></script>
+<script type="text/html" id="product-tmp">
+    {{ each result as value }}
+        <li>
+            <a href="#">
+                <div class="pic">
+                    {{ value.productImg }}
+                </div>
+                <div class="name">
+                    {{ value.productName }}
+                </div>
+                <div class="price">
+                    {{ value.productPrice }}
+                </div>
+                <div class="tips">
+                    <span> {{ value.productFrom }} </span>
+                    <span> {{ value.productTime }} </span>
+                </div>
+            </a>
+        </li>
+    {{ /each }}
+</script>

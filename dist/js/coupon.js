@@ -1,0 +1,1 @@
+$(function(){$.ajax({type:"get",url:"http://192.168.15.144:3000/api/getcoupon",success:function(t){template.config("escape",!1);var e=template("coupons",t);$("#kfc-list").html(e)}})});

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>manmanbuy比价网----详情页</title>
+    <link rel="stylesheet icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/cate-detail-one.css">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/template.js"></script>
+
+</head>
+<body>
+
+    <!--头部-->
+    <div class="header clearfix">
+        <div class="logo f_left">
+            <a href="index.html"><img src="source/header_logo.png" ></a>
+        </div>
+        <div class="downLoad f_right">
+            <a href="#">
+                <img src="source/header_app.png" >
+            </a>
+        </div>
+    </div>
+
+    <!--搜索部分-->
+    <div class="search">
+        <form action="#">
+            <input type="text" class="f_left" placeholder="请输入您想比价的商品">
+            <button>搜索</button>
+        </form>
+    </div>
+
+
+
+    <!--分类详情-->
+
+    <div class="three-nav">
+        <div class="three-nav-in clearfix">
+            <a href="index.html">首页></a>
+            <a href="#" id="classify"></a>
+            <span>&gt;</span>
+            <a href="#" id="classify-detail"></a>
+            <span>&gt;</span>
+            <button>刷选</button>
+        </div>
+    </div>
+
+    <!-- 商品详情-->
+
+    <div class="good-detials">
+        <p id="productName"></p>
+        <div class="good-pic">
+
+        </div>
+        <ul class="clearfix">
+            <li class="bg-dark-orange"><a href="#">比价购买</a></li>
+            <li class="bg-orange"><a href="#">产品参数</a></li>
+            <li class="bg-orange"><a href="#" id="productCom"></a></li>
+        </ul>
+        <div class="good-price clearfix">
+            <i class="iconfont icon-jingdong"></i>
+            <span>京东商城</span>
+            <a href="#">
+                去购买
+            </a>
+            <s id='moneny'>￥1000.00</s>
+        </div>
+        <div class="warm-tips">
+            实际价格以网站列出的售价为准，我们提供的价格可能有数小时或数日的延迟。
+        </div>
+    </div>
+
+
+    <!--网友评价 -->
+    <div class="evaluates">
+        <div class="eval-top">网友评价</div>
+        <ul id="eval-tips">
+
+        </ul>
+        <div class="more-com">
+            <a href="#">查看更多评论</a>
+        </div>
+    </div>
+
+    <!--底部-->
+    <div class="ct_foot">
+        <div class="foot_top clearfix">
+            <a href="#">登陆</a>
+            <a href="#">注册</a>
+            <a href="#" style="width: 40%;border: 0"><span class="iconfont icon-xiangshang"></span>&nbsp;返回顶部
+            </a>
+        </div>
+        <div class="foot">
+            <p>
+                <a style="color: red;" href="http://m.manmanbuy.com/?o=download">手机APP下载</a>
+                <a href="http://m.manmanbuy.com">慢慢买手机版</a>
+                <span>--掌上比价平台</span>
+            </p>
+            <p>m.manmanbuy.com</p>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="js/cate-detail-one.js"></script>
+<script type="text/html" id="evaluate">
+    {{ each result as value }}
+        <li>
+            <div class="user-info">
+                <span>{{ value.comName }}</span>
+                <i>{{ value.comTime }}</i>
+            </div>
+            <div class="suorce-form">{{ value.comFrom }}</div>
+            <p class="evey-com">
+                {{ value.comContent }}
+            </p>
+        </li>
+    {{ /each }}
+</script>
+</html>

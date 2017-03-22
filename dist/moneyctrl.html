@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1"><title>mammanbuy比价网---省钱空</title><link rel="stylesheet icon" href="favicon.ico"><link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="font/iconfont.css"><link rel="stylesheet" href="css/moneyctrl.css"><script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script><script type="text/javascript" src="js/template.js"></script></head><body><!--省钱空头部--><div class="header-top clearfix"><div class="comeback"><a href="./index.html" class="iconfont icon-xiangzuo"></a></div><h3>省钱空-最新优惠</h3><div class="downApp"><a href="#"><img src="images/header_app.png" alt=""></a></div></div><!--商品列表--><div class="carte-con"><div class="cu-list clearfix"><ul id="ul_li"></ul><div class="fenye"><button id="btn-before">上一页</button><select id="select"></select><button id="btn-next">下一页</button></div></div></div><!--底部--><div class="ct_foot"><div class="foot_top clearfix"><a href="#">登陆</a> <a href="#">注册</a> <a href="#" style="width: 40%;border: 0"><span class="iconfont icon-xiangshang"></span>&nbsp;返回顶部</a></div><div class="foot"><p><a style="color: red" href="http://m.manmanbuy.com/?o=download">手机APP下载</a> <a href="http://m.manmanbuy.com">慢慢买手机版</a> <span>--掌上比价平台</span></p><p>m.manmanbuy.com</p></div></div></body></html><script type="text/javascript" src="js/moneyctrl.js"></script><script type="text/html" id="cargo">{{ each result as value }}
+    <li class="clearfix">
+        <a href="./money-detail.html?productid={{ value.productId }}">
+            <div class="pic f_left">
+                {{ value.productImg2 }}
+            </div>
+            <div class="info">
+                <div class="title">
+                    <p>{{ value.productName }}<span> {{ value.productPinkage }}</span></p>
+                </div>
+                <div class="other">
+                    <span> {{ value.productFrom }} </span> |
+                    <span> {{ value.productTime }} </span>
+                    <span class="comment-tips"><i class="iconfont icon-tubiao15"></i> {{ value.productComCount }} </span>
+                </div>
+            </div>
+        </a>
+    </li>
+    {{ /each }}</script>

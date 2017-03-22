@@ -1,0 +1,124 @@
+/*省钱控头部样式*/
+.header-top {
+    position: relative;
+    height: 50px;
+    background-color: #ff9e00;
+}
+.header-top .comeback {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-top .comeback a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height:50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.header-top h3 {
+    height: 100%;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.header-top .downApp {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-top .downApp a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 8px auto;
+
+}
+.header-top .downApp a img  {
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+
+
+
+/*商品列表*/
+.carte-con {
+    padding-bottom: 4px;
+}
+
+.carte-con .cu-list {
+    margin-top: 4px;
+}
+
+.carte-con .cu-list ul {
+    background-color: #cccccc;
+}
+
+.carte-con .cu-list ul li {
+    padding: 14px 8px;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+}
+
+.carte-con .cu-list ul li a {
+    display: block;
+}
+
+.carte-con .cu-list ul li a .pic img {
+    display: block;
+    height: 100px;
+    width: 100px;
+
+}
+
+.carte-con .cu-list ul li a .info {
+    padding-left: 110px;
+}
+.carte-con .cu-list ul li a .info .title {
+    color: #333333;
+    font-size: 15px;
+    line-height: 19px;
+    min-height: 68px;
+    text-align: left;
+}
+.carte-con .cu-list ul li a .info .title p span {
+    color: #ff6c00;
+}
+.carte-con .cu-list ul li a .info .other {
+    position: relative;
+    color: #a1a1a1;
+    margin-top:8px;
+    font-size: 12px;
+}
+.carte-con .cu-list ul li a .info .other .comment-tips {
+    position: absolute;
+    top:2px;
+    right: 5px;
+}
+
+
+/*分页样式*/
+
+.carte-con .cu-list .fenye {
+    margin-top:10px;
+    display: flex;
+    justify-content:space-around;
+}
+.carte-con .cu-list .fenye button {
+    font-size: 12px;
+    border: none;
+    background-color: #dddddd;
+    border-radius: 3px;
+    width: 60px;
+    height: 24px;
+    box-shadow: 0 0 3px #a1a1a1;
+}
+.carte-con .cu-list .fenye select {
+    border-style: none;
+    width: 60px;
+    border: 1px solid #f2f2f2;
+}

@@ -1,0 +1,1 @@
+!function(o){$(function(){var t=o.location.search;console.log(t),$.ajax({type:"get",url:"http://192.168.15.144:3000/api/getmoneyctrlproduct"+t,success:function(o){console.log(o);var t=template("productDetail",o);$(".good-detail").html(t)}})})}(window);

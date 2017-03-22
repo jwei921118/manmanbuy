@@ -1,0 +1,95 @@
+
+
+/*三级导航样式*/
+
+.three-nav {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #c4c4c4;
+}
+.three-nav .three-nav-in {
+    line-height:24px;
+    position: relative;
+    padding: 2px 5px;
+}
+.three-nav .three-nav-in a {
+    color: #333333;
+    font-size: 12px;
+}
+.three-nav .three-nav-in button {
+    border-style: none;
+    font-size: 12px;
+    position: absolute;
+    top:4px;
+    right: 5px;
+    border-radius: 3px;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    box-shadow:  0 0 2px  #a1a1a1;
+    color: #333333;
+}
+.three-nav .three-nav-in span {
+    font-size: 12px;
+}
+
+
+
+/*商品列表*/
+
+.product-list {
+    background-color: #fff;
+    padding: 2px 0 6px;
+}
+.product-list ul li {
+    border-bottom:  1px solid #f2f2f2;
+    padding:10px;
+}
+.product-list ul li a {
+    display: block;
+}
+.product-list ul li a .pic {
+    float: left;
+}
+.product-list ul li a .pic img {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.product-list ul li a .info {
+    padding-left:110px;
+}
+.product-list ul li a .info .product-con {
+    min-height: 80px;
+    line-height: 24px;
+}
+
+.product-list ul li a .info .product-con span {
+    color: red;
+}
+.product-list ul li a .info .product-tips span {
+    margin-right:5px;
+    font-size:12px;
+    color: #5a5a5a;
+}
+
+.product-list .fenye {
+    display: flex;
+    justify-content:space-around;
+}
+.product-list .fenye button {
+    font-size: 12px;
+    border: none;
+    background-color: #dddddd;
+    border-radius: 3px;
+    width: 60px;
+    height: 24px;
+    box-shadow: 0 0 3px #a1a1a1;
+}
+.product-list .fenye select {
+    border-style: none;
+    width: 60px;
+    border: 1px solid #f2f2f2;
+}
+
+
+

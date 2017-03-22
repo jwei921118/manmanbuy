@@ -1,0 +1,94 @@
+/*国内折扣*/
+.header-top {
+    position: relative;
+    height: 50px;
+    background-color: #ff9e00;
+}
+.header-top .comeback {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-top .comeback a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height:50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.header-top h3 {
+    height: 100%;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.header-top .downApp {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-top .downApp a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 8px auto;
+
+}
+.header-top .downApp a img  {
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+
+
+/*商品列表样式*/
+.product-lsit {
+
+}
+.product-lsit ul {
+    padding-top:2px;
+}
+.product-lsit ul li {
+    padding-top:10px;
+    float: left;
+    background: #fff;
+    width: 50%;
+    border: 1px solid #eee;
+    border-top:none;
+}
+.product-lsit ul li a {
+    display: block;
+}
+.product-lsit ul li a .pic {
+    margin: 10px auto;
+    text-align: center;
+}
+.product-lsit ul li a .pic img {
+    width: 140px;
+    height: 140px;
+    vertical-align: middle;
+}
+.product-lsit ul li a .name {
+    height: 36px;
+    color: #333333;
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.product-lsit ul li a .price {
+    height: 16px;
+    line-height: 16px;
+    padding:0 8px;
+    color: #ff6c00;
+    font-size: 12px;
+    margin-top:10px;
+}
+.product-lsit ul li a .tips {
+    color: #cccccc;
+    font-size: 12px;
+    padding:10px 8px;
+}

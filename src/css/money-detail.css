@@ -1,0 +1,213 @@
+/*省钱控头部样式*/
+.header-top {
+    position: relative;
+    height: 50px;
+    background-color: #ff9e00;
+}
+.header-top .comeback {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-top .comeback a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height:50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.header-top h3 {
+    height: 100%;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.header-top .downApp {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-top .downApp a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 8px auto;
+
+}
+.header-top .downApp a img  {
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+
+
+/*商品详情样式*/
+.good-detail {
+    background-color: #ffffff;
+    padding: 8px;
+}
+.good-detail h3 {
+    font-size: 18px;
+    margin: 10px auto 5px auto;
+    font-weight: 800;
+    text-align: left;
+    text-align-last: left;
+    color: #5a5a5a;
+    line-height: normal;
+}
+.good-detail .com-from {
+    padding:5px 0;
+}
+.good-detail .com-from span {
+    font-size:12px;
+    color: #999999;
+    margin-right:4px;
+}
+.good-detail .pic-info {
+    margin-bottom:20px;
+}
+.good-detail .pic-info .small-pic {
+    margin-top: 10px;
+    margin-left:10px;
+    float: right;
+}
+.good-detail .pic-info .small-pic img {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+.good-detail .pic-info .info p {
+    font-size:14px;
+    color: #999999;
+}
+
+
+.good-detail .city ul {
+    padding:6px 2px;
+    margin: 0 auto;
+    width: 80px;
+    border: 1px solid #c4c4c4;
+    padding: 4px 4px;
+}
+.good-detail .city ul li {
+    border-bottom:1px dashed #999999;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+.good-detail .city ul li a {
+    color: #a1a1a1;
+}
+.good-detail .city ul li a span {
+
+}
+.good-detail .city ul li a span strong {
+    margin-left:10px;
+    color: #ff9e00;
+}
+
+.good-detail .toBuy {
+    margin:20px 0;
+}
+.good-detail .toBuy a {
+    display: block;
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    background-color: #ff9e00;
+    font-size: 12px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+.good-detail .mmbuy {
+    margin:20px 0;
+}
+.good-detail .mmbuy img {
+    display: block;
+    margin: 0 auto;
+    width: 296px;
+    height: 120px;
+}
+
+.good-detail .product-tips {
+
+}
+.good-detail .product-tips .cu-content-pl {
+
+}
+.good-detail .product-tips .cu-content-pl .tit {
+    font-size:12px;
+    padding-left:8px;
+    height: 28px;
+    line-height: 28px;
+}
+.good-detail .product-tips .cu-content-pl .reply {
+
+}
+.good-detail .product-tips .cu-content-pl .reply .form {
+    background-color: #f7f7f7;
+    width: 96%;
+    margin: 0 auto;
+    border: 1px solid #c2c2c2;
+    box-shadow: 0px 0px 4px #c2c2c2;
+}
+.good-detail .product-tips .cu-content-pl .reply .form textarea {
+    background-color: #f7f7f7;
+    width: 100%;
+    min-height: 50px;
+    padding:6px;
+
+}
+.good-detail .product-tips .cu-content-pl .reply .form .ctrl {
+    border-top:1px solid #c2c2c2;
+    box-shadow: 0px 0px 4px #c2c2c2;
+    overflow: hidden;
+}
+.good-detail .product-tips .cu-content-pl .reply .form .ctrl input {
+    width: 80px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #ff9e00;
+    float: right;
+}
+.good-detail .product-tips .cu-content-pl .list {
+
+}
+.good-detail .product-tips .cu-content-pl .list ul li {
+    padding:18px 10px;
+}
+.good-detail .product-tips .cu-content-pl .list ul li .userimg {
+    float: left;
+    overflow: hidden;
+}
+.good-detail .product-tips .cu-content-pl .list ul li .userimg img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 20px;
+}
+.good-detail .product-tips .cu-content-pl .list ul li .con {
+    padding-left:10px;
+    overflow: hidden;
+}
+.good-detail .product-tips .cu-content-pl .list ul li .con .name .username {
+    float: left;
+    color: #5997c0;
+    font-size:12px;
+}
+.good-detail .product-tips .cu-content-pl .list ul li .con .name .time {
+    float: right;
+    color: #a1a1a1;
+    font-size: 12px;
+}
+.good-detail .product-tips .cu-content-pl .list ul li .con .content {
+    padding-top:4px;
+    color: #a1a1a1;
+    font-size:14px;
+}

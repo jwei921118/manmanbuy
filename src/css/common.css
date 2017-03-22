@@ -1,0 +1,173 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+
+     /*移动端点击高亮 */
+    -webkit-tap-highlight-color: transparent;
+
+    /*设置盒子的宽高以变宽开始计算*/
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+}
+body , html{
+    background-color: #f2f2f2;
+    font-family:"Helvetica Neue", Helvetica, STHeiTi, sans-serif !important;
+}
+ul,ol {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+input,textarea {
+    border: none;
+    outline:none;
+    resize: none;
+    /*组件默认样式为空*/
+    -webkit-appearance: none;
+}
+.f_left {
+    float: left;
+}
+.f_right {
+    float: right;
+}
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    height: 0;
+    line-height:0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+.bg-orange {
+    background-color: #ffd31d;
+}
+.bg-dark-orange {
+    background-color: #ff9e00;
+}
+
+
+
+/*app的公共样式*/
+
+.header {
+    background-color: #ff841d;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px;
+}
+
+.header .logo {
+    width: 75%;
+    padding-left: 15px;
+}
+
+.header .logo a {
+    display: block;
+}
+
+.header .logo a img {
+    display: block;
+    max-height: 25px;
+}
+
+.header .downLoad a {
+    display: block;
+}
+
+.header .downLoad a img {
+    display: block;
+    height: 34px;
+    width: 34px;
+}
+
+/*search 部分样式*/
+.search {
+    margin-top: 1px;
+    height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px;
+    position: relative;
+}
+
+.search form {
+    height: 100%;
+}
+
+.search input {
+    height: 100%;
+    width: 90%;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.search button {
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff841d;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 12%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+/*底部样式*/
+.ct_foot {
+    margin-top: 10px;
+}
+
+.ct_foot .foot_top {
+    background-color: #efefef;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.ct_foot .foot_top a {
+    font-size: 14px;
+    display: block;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-right: 1px solid #c4c4c4;
+    width: 30%;
+    color: #5a5a5a;
+}
+
+.ct_foot .foot {
+    background-color: #efefef;
+    padding: 15px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+}
+
+.ct_foot .foot p {
+    margin: 0;
+}
+
+.ct_foot .foot a {
+    margin-right: 2px;
+}

@@ -1,0 +1,1 @@
+!function(t){$(function(){$.ajax({type:"get",url:"http://192.168.15.144:3000/api/getsitenav",success:function(t){console.log(t);var n=template("nav-tmp",t);$("#navList").html(n)}})})}(window);

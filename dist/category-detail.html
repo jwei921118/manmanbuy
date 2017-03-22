@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>manmanbuy比价网----分类页面局部</title><link rel="stylesheet icon" href="favicon.ico"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1"><link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"><link rel="stylesheet" href="font/iconfont.css"><link rel="stylesheet" href="css/common.css"><link rel="stylesheet" href="css/category-detail.css"><script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script><script type="text/javascript" src="js/template.js"></script></head><body><!--头部--><div class="header clearfix"><div class="logo f_left"><a href="index.html"><img src="source/header_logo.png"></a></div><div class="downLoad f_right"><a href="#"><img src="source/header_app.png"></a></div></div><!--搜索部分--><div class="search"><form action="#"><input type="text" class="f_left" placeholder="请输入您想比价的商品"> <button>搜索</button></form></div><!--分类详情--><div class="three-nav"><div class="three-nav-in"><a href="index.html">首页></a> <a href="category.html">全部分类></a> <a href="#" id="classify-detail"></a><span>&gt;</span> <button>刷选</button></div></div><!-- 商品列表--><div class="product-list"><ul id="product-info"></ul><div class="fenye"><button id="btn-before">上一页</button><select id="select"></select><button id="btn-next">下一页</button></div></div><!--底部--><div class="ct_foot"><div class="foot_top clearfix"><a href="#">登陆</a> <a href="#">注册</a> <a href="#" style="width: 40%;border: 0"><span class="iconfont icon-xiangshang"></span>&nbsp;返回顶部</a></div><div class="foot"><p><a style="color: red" href="http://m.manmanbuy.com/?o=download">手机APP下载</a> <a href="http://m.manmanbuy.com">慢慢买手机版</a> <span>--掌上比价平台</span></p><p>m.manmanbuy.com</p></div></div></body><script type="text/javascript" src="js/cartegory-detail.js"></script><script type="text/html" id="product-list">{{ each result as value }}
+        <li>
+            <a href='./cate-detail-one.html?obj={{  toJson( value ) }} 'class="clearfix">
+                <div class="pic">
+                    {{ value.productImg }}
+                </div>
+                <div class="info">
+                    <div class="product-con">
+                        <p>{{ value.productName }}</p>
+                        <span>{{ value.productPrice }}</span>
+                    </div>
+                    <div class="product-tips">
+                        <span>{{ value.productQuote }}</span>
+                        <span>{{ value.productCom }}</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+    {{ /each }}</script></html>

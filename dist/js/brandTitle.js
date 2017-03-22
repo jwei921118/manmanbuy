@@ -1,0 +1,1 @@
+!function(t){$(function(){$.ajax({type:"get",url:"http://192.168.15.144:3000/api/getbrandtitle",success:function(t){console.log(t);var e=template("category-tmp",t);$("#categoryList").html(e)}})})}(window);
